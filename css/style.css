@@ -169,6 +169,8 @@ body {
     border: 1px solid #ffc222;
     border-right-width: 20px;
     position: relative;
+    z-index: 2;
+    outline: none;
 }
 
 .default-btn:after {
@@ -177,5 +179,51 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 8px;
+    right: -12px;
+}
+
+.slider__inner {
+    position: relative;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    bottom: 1px solid #fff;  
+    cursor: pointer;
+    outline: none;
+    background: #ffc222; 
+}
+
+.slick-btn.slick-disabled {
+    cursor: default;
+    background-color: transparent;
+}
+
+.slick-btn:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    color: #fff;
+}
+
+.slick-next:before {
+    content: "\f105";
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev:before {
+    content: "\f104";
+}
+
+.slick-prev {
+   left: 0; 
 }
