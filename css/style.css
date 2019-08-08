@@ -7,7 +7,8 @@ a {
     display: inline-block
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -16,10 +17,10 @@ ul, li {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding:0 15px;
+    padding: 0 15px;
 }
 
-body {   
+body {
     font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 14px;
@@ -37,7 +38,7 @@ body {
 
 .header__btn {
     float: right;
-    line-height: 36px;   
+    line-height: 36px;
     color: #1b1b1b;
     background-color: #ffc222;
     padding: 5px 20px 4px 50px;
@@ -63,7 +64,7 @@ body {
     color: #cbcacb;
     letter-spacing: 0.25px;
     line-height: 45px;
-    position: relative; 
+    position: relative;
 }
 
 .header__phone {
@@ -134,7 +135,7 @@ body {
 }
 
 .slider__item-content {
-   text-align: center;
+    text-align: center;
     padding-top: 110px;
     max-width: 665px;
     margin: 0 auto;
@@ -192,10 +193,10 @@ body {
     z-index: 3;
     width: 40px;
     height: 40px;
-    bottom: 1px solid #fff;  
+    bottom: 1px solid #fff;
     cursor: pointer;
     outline: none;
-    background: #ffc222; 
+    background: #ffc222;
 }
 
 .slick-btn.slick-disabled {
@@ -225,7 +226,7 @@ body {
 }
 
 .slick-prev {
-   left: 0; 
+    left: 0;
 }
 
 /* Section (about) */
@@ -240,13 +241,15 @@ body {
     margin-bottom: 60px;
 }
 
-.services__title-box {
+.services__title-box,
+.form__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box:before {
+.services__title-box:before,
+.form__title-box:before {
     content: "";
     position: absolute;
     width: 100px;
@@ -256,7 +259,8 @@ body {
     top: 11px;
 }
 
-.services__title {
+.services__title,
+.form__title {
     font-style: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -265,7 +269,8 @@ body {
     margin-bottom: 10px;
 }
 
-.services__text {
+.services__text,
+.form__text {
     letter-spacing: 0.1px;
 }
 
@@ -302,15 +307,15 @@ body {
 }
 
 .services__item-text {
-letter-spacing: 0.1px;
-padding: 0px 30px 30px;
+    letter-spacing: 0.1px;
+    padding: 0px 30px 30px;
 }
 
 .services__item-btn {
-position: absolute;
-bottom: 40px;
-left: 0;
-right: 0;  
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
 }
 
 .services__item-btn .default-btn {
@@ -360,4 +365,64 @@ right: 0;
 .about__btn.default-btn:after {
     color: #000;
 }
-  
+
+.form {
+    padding-top: 30px;
+}
+
+.form__inner {
+    padding-bottom: 40px;
+    background-image: url(../img/form-fon.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.form__box {
+    max-width: 850px;
+    padding-top: 45px;
+}
+
+.form__box-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__box-left {
+    max-width: 260px;
+    width: 100%;
+}
+
+.form__box-right {
+    max-width: 555px;
+    width: 100%;
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner textarea,
+.form__box-inner select {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner label {
+    line-height: 36px;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form__box-inner input {
+    margin-bottom: 8px;
+    outline: none;
+    height: 40px;
+    border: solid 1px #e6e6e6;
+    padding: 0px 10px;
+}
+
+.form__box-inner select {
+    outline: none;
+    height: 40px;
+    border: solid 1px #e6e6e6;
+    padding-left: 17px;
+}
