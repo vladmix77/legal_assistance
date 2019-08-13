@@ -193,10 +193,10 @@ body {
     z-index: 3;
     width: 40px;
     height: 40px;
-    bottom: 1px solid #fff;
+    border: 1px solid #fff;
     cursor: pointer;
     outline: none;
-    background: #ffc222;
+    background-color: #ffc222;
 }
 
 .slick-btn.slick-disabled {
@@ -217,12 +217,12 @@ body {
     content: "\f105";
 }
 
-.slick-next {
-    right: 0;
-}
-
 .slick-prev:before {
     content: "\f104";
+}
+
+.slick-next {
+    right: 0;
 }
 
 .slick-prev {
@@ -669,4 +669,17 @@ body {
     color: #212020;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+}
+
+.news__slider-inner .slick-btn {
+    top: auto;
+    bottom: -110px;
+}
+
+.news__slider-inner .slick-next {
+    right: -35px;
+}
+
+.news__slider-inner .slick-prev {
+    right: -55px;
 }
