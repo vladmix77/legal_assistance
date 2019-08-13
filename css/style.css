@@ -681,5 +681,14 @@ body {
 }
 
 .news__slider-inner .slick-prev {
-    right: -55px;
+    right: 20px;
+    left: auto;
+}
+
+.news__slider-inner .slick-disabled {
+    border-color: #dadada;
+}
+
+.news__slider-inner .slick-disabled:before {
+    color: #dadada;
 }
