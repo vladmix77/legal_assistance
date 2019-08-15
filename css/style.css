@@ -752,6 +752,26 @@ body {
     letter-spacing: 0.25px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+    padding-left: 33px;
+    position: relative;
+}
+
+.footer__list a:before {
+    content: '\f003';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: 'icomoon';
+}
+
+.footer__list .footer__phone:before {
+    content: "\f095";
+    left: 3px;
+}
+
+.footer__list .footer__adress:before {
+    content: "\f041";
+    left: 3px;
 }
 
 .footer__copy {
@@ -762,6 +782,8 @@ body {
     padding: 8px 0;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
+#modal
 
-
+5:48:38 / 7:10:55

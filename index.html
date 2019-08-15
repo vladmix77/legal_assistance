@@ -390,9 +390,9 @@
                         <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
                             консультация</a>
                         <ul class="footer__list">
-                            <li><a href="tel:380963092145">+38 (096) 309 21 45</a></li>
+                            <li><a class="footer__phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
                             <li><a href="mailto:layout585@gmail.com">layout585@gmail.com</a></li>
-                            <li><a href="#">Киев, ул.Пушиной, 13</a></li>
+                            <li><a class="footer__adress" href="#">Киев, ул.Пушиной, 13</a></li>
                         </ul>
                     </div>
                     <div class="footer_map">
@@ -413,8 +413,11 @@
     </footer>
 
     <div id="modal">
-        <h2>Hello!</h2>
-        <p>You are awesome!</p>
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <input type="submit" value="Отправить">
+        </form>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
