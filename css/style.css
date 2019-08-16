@@ -267,7 +267,7 @@ body {
 .services__title,
 .form__title,
 .news__title {
-    font-style: 24px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 24px;
     color: #212020;
@@ -814,5 +814,5 @@ body {
     display: none;
     font-size: 28px;
 }
-
+6:38:55 / 7:10:55
 /* Адаптация под мобильную версию разрешения */
