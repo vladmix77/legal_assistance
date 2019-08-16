@@ -784,6 +784,28 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
-#modal
 
-5:48:38 / 7:10:55
+/* Редактирование окна вызова сбора информации */
+
+#modal {
+    width: 300px;
+}
+
+#modal input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: solid 1px #e6e6e6;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#modal input[type="submit"] {
+    background-color: #ffc222;
+    border: none;
+}
+
+/* Адаптация под мобильную версию разрешения */
