@@ -808,11 +808,10 @@ body {
 #modal input[type="submit"] {
     background-color: #ffc222;
     border: none;
+    margin: 0;
 }
 
 .header__btn-menu {
     display: none;
     font-size: 28px;
 }
-
-/* Адаптация под мобильную версию разрешения */
